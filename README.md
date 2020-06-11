@@ -8,4 +8,6 @@ Repository to demonstrate how to create presentations (html slides) using jupyte
 3. Edit the `slide_demo.ipynb` jupyter notebook
 
 ## How to create the presentation
-`pipenv run jupyter nbconvert slide_demo.ipynb --execute --to slides --post serve`
+`pipenv run jupyter nbconvert slide_demo.ipynb --execute --to slides --post serve` will create the file `slide_demo.slides.html`.
+Open this file in any browser to see the presentation slides.
+
